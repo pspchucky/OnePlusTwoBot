@@ -1,6 +1,6 @@
-# OnePlusTwoBot-Statistics
-A respository dedicated to the current OnePlusTwo invite related scheme.
-
+#Required dependencies
+InfoBot.js
+- colors
 #What is here?
 Currently, there's only 1 NodeJS script I wrote (Sloppily)
 
