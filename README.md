@@ -1,6 +1,7 @@
 #Required dependencies
 InfoBot.js
 - colors
+
 #What is here?
 Currently, there's only 1 NodeJS script I wrote (Sloppily)
 
