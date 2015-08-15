@@ -3,7 +3,7 @@ var https = require('https');
 var kid = "PG2FQO" //Pulled someone's 'kid' ('k-id', not kid >:|) off twitter (via https://twitter.com/balkumar/status/632149668726607872) Use your own... (or be malicious, I take no responibility...)
 var json = ''; //Prepare the json response, might come in chunks...
 
-console.log("Fetching ".yellow + kid.inverse + "'s status in queue...".yellow)
+console.log("Fetching ".yellow + kid.inverse + "'s status in the system...".yellow)
 
 https.get('https://invites.oneplus.net/index.php?r=share/view&kid=' + kid, function(res) {
   res.on('data', function(chunk) {
