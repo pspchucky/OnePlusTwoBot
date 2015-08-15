@@ -16,7 +16,7 @@ It can get the 'kid' and print out:
 
 #Quick FAQ
 What is a 'kid'?
-- The identifier at the end of an invite URL (For Ex: https://oneplus.net/invites?kolid=PG2FQO | The 'kid' is PG2FQO)
+- The identifier at the end of an invite URL (For Ex: https://oneplus.net/invites?kolid=PG2FQO | The 'kid' is PG2FQO | This isn't mine if you're wondering, see line 3)
 
 What can I do with this?
 - As stated above, it prints out some data from their Unofficial API (which I found in the JS code of 
