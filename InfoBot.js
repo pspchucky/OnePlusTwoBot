@@ -26,9 +26,9 @@ https.get('https://invites.oneplus.net/index.php?r=share/view&kid=' + kid, funct
   });
 
 }).on('error', function(e) {
-  console.log("Got error: " + e.message);
-  process.exit(1);
-});
+    console.log("Got error: " + e.message);
+    process.exit(1);
+  });
 
 //Thanks http://stackoverflow.com/questions/847185/convert-a-unix-timestamp-to-time-in-javascript
 function timeConverter(UNIX_timestamp){
